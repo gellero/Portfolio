@@ -1398,6 +1398,14 @@ pre code {
     margin-left: 0;
   }
 }
+@media (min-width: 100px) {
+  .col-lg-8 {
+    width: 80%;
+  }
+  .col-lg-offset-2 {
+    margin-left: 10%;
+  }
+}
 table {
   max-width: 100%;
   background-color: transparent;

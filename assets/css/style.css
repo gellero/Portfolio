@@ -80,22 +80,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+	color: #bcaaa4;
 }
 
 .navbar-default {
-	background-color: transparent;
+    background-color: #4a4a4a;
+    opacity: 0.7;
 	border-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
+	color: #bcaaa4;
 	background-color: transparent;
-	border-bottom: 2px solid #1abc9c
+	border-bottom: 0px solid #bcaaa4
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
+	color: #bcaaa4;
 }
 
 /* ==========================================================================
@@ -125,17 +126,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-	color:black;
+	color:white;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 80px;
+	font-size: 42px;
 	font-weight: bold;
 }
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #1abc9c
+	color: #bcaaa4
 }
 
 #social {
@@ -150,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social i:hover {
-	color: #1abc9c
+	color: #bcaaa4
 }
 
 #footerwrap {
@@ -170,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
-	background-attachment: relative;
+	background-attachment: fixed;
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
@@ -191,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 80px;
+	font-size: 46px;
 	font-weight: bold;
 }
 
@@ -264,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #1abc9c;
+    background-color: #bcaaa4;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -322,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #1abc9c;
+    background-color: #bcaaa4;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
