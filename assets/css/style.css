@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap {
     animation: transitionIn 2.75s;
-    background: url(../img/fond.gif) no-repeat center top;
+    background: url(../img/fond.png) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -434,5 +434,22 @@ h1, h2, h3, h4, h5, h6 {
     }
     100%{
         opacity: 1;
+    }
+}
+
+.gif{
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-height: 850px) {
+    .gif {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (max-height: 400px) {
+    .gif {
+        display: none;
     }
 }
