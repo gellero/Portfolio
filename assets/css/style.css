@@ -108,11 +108,11 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap {
     animation: transitionIn 2.75s;
     display: block;
-    background: linear-gradient(#ADA996,white,#EAEAEA,#EAEAEA);
+    background: linear-gradient(#ADA996,white,white,#EAEAEA,#EAEAEA);
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
-	background-attachment: relative;
+	background-attachment: fixed;
     background-position: center center;
     min-height: 1080px;
 	width: 100%;
