@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap {
     animation: transitionIn 2.75s;
-    background: url(../img/fond.png) no-repeat center bottom;
+    background: url(../img/fond.gif) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -125,6 +125,11 @@ h1, h2, h3, h4, h5, h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+@media (max-width: 700px) {
+    #headerwrap {
+        padding-top: 150px;
+    }
 }
 
 #headerwrap h1 {
@@ -371,20 +376,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mouse{
-    animation: transitionIn 2.75s;
+    animation: transitionIn 5s;
     width: 2.5rem;
     height: 5rem;
-    border: 2px solid #5a5a5a;
+    border: 2px solid #7e7e7e;
     border-radius: 2rem;
     margin-bottom: .5rem;
     display: flex;
 }
 
 .mouse span{
-    animation: transitionIn 2.75s;
+    animation: transitionIn 5s;
     width: 1rem;
     height: 1rem;
-    background-color:#5a5a5a;
+    background-color:#7e7e7e;
     display: block;
     border-radius: 50%;
     margin: auto;
@@ -392,13 +397,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .arrow span{
-    animation: transitionIn 2.75s;
+    animation: transitionIn 5s;
     display: block;
     width: 1rem;
     height: 1rem;
     border: 2px solid transparent;
-    border-right-color:#5a5a5a;
-    border-bottom-color:#5a5a5a;
+    border-right-color:#7e7e7e;
+    border-bottom-color:#7e7e7e;
     transform: rotate(45deg);
     animation: arrow-down .5s alternate infinite;
 }
